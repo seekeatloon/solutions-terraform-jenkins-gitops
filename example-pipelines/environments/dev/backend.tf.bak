@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "beer1664-gitops-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "env/dev"
   }
 }
